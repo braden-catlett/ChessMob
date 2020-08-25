@@ -1,0 +1,74 @@
+3 main parts:
+-core functionality	// platform-independent C++
+--board
+--pieces
+--move validation	// part of each piece?
+--move history
+-AI			// technically, would be part of core set of classes
+--logic for determining the AI's next move
+--preferably with different difficulty levels	//optional, but would be really nice
+-interface/player controls	//platform specific
+--retrieve user inputs
+--submits user moves to the core for validation
+--menu structure
+
+
+Classes needed for core functionality // nesting implies inheritence
+-GameManager	// contains board, players, move history, game mechanics
+-Board		// contains pieces
+-Move		// contains piece moved, original location, end location
+-GamePiece
+--King
+--Queen
+--Rook
+--Bishop
+--Knight
+--Pawn
+-Player
+--AI
+--Human
+
+
+Flow of Program
+-user presses new game button
+-choose opponent 		// AI or local or network match if implemented
+--if AI, choose difficulty	// if implemented
+-choose who is white		// randomly or give them a choice?
+-create a GameManager
+--create a board
+-ask for mob piece selection
+-populate board
+-play the game
+--a player makes a move
+--submit move
+----if move is invalid, reject it and let them make another move
+--see if move causes check or checkmate or stalemate
+---if checkmate, goto end game		// just to make us all twitch :P
+---if check, notify other player
+---if stalemate, goto end game
+--move to next player's turn
+--if back button is pressed, undo player's previous move
+-end game
+-show end game dialog (and highlight the checkmate?)
+-return to main menu
+
+
+Will also need to create or find graphics
+-pieces
+-board
+-background in general
+-buttons
+
+Also will need to find/create sounds:
+Music:
+-menu screen
+-main game
+-Game Over (Win)?
+-Game Over (Loss)?
+SFX:
+-menu button clicks
+-moving pieces
+-capture pieces
+-Check/Checkmate warning
+-Game Over (Win)?
+-Game Over (Loss)?

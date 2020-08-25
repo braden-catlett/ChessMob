@@ -1,0 +1,31 @@
+Chess Mob
+
+speed games (online)
+
+different skins?
+
+menu
+-new game
+-resume game
+
+highlighting
+-show other player's moves
+-show when in check
+
+special moves
+-castling
+-en pasante
+
+local play
+-vs AI definitely
+-handing back and forth if possible
+
+online play if time and capable
+
+iPhone (and Android)
+
+free (with advertising) or $0.99?
+-think about it more
+
+
+

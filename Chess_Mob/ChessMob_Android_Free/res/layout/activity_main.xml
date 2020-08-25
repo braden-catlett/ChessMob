@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/ChessMobTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp"
+        android:text="@string/app_namenofree"
+        android:textColor="#FFAA00"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/Resume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ChessMobTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="@string/resume"
+        android:textColor="#FFAA00"
+        android:textSize="36sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/NewGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Resume"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/new_game"
+        android:textColor="#FFAA00"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/updategame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NewGame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/upgrade_game"
+        android:textColor="#FFAA00"
+        android:textSize="36sp" />
+
+</RelativeLayout>

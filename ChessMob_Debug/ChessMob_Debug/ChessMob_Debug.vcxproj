@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9185D7A6-1F13-4CCF-9627-7ED60C70A8DB}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeIncludeSearchPath>C:\Android_Case_Tools\android-ndk-r8e\platforms\android-14\arch-arm\usr\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeOutput>$(ProjectDir)ChessMob_Debug-Debug.vgdbsettings</NMakeOutput>
+    <NMakeForcedIncludes>$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /rebuild "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeReBuildCommandLine>
+    <NMakeIncludeSearchPath>C:\Android_Case_Tools\android-ndk-r8e\platforms\android-14\arch-arm\usr\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeOutput>$(ProjectDir)ChessMob_Debug-Release.vgdbsettings</NMakeOutput>
+    <NMakeForcedIncludes>$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Chess_Mob\ChessMob_Android\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Chess_Mob\ChessMob_Android\jni\Android.mk" />
+    <None Include="..\..\Chess_Mob\ChessMob_Android\jni\Application.mk" />
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\Coord.java" />
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\DifficultyOptions.java" />
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\Direction.java" />
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\GameActivity.java" />
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\GameNDKFunctions.java" />
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\GameSettings.java" />
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\Leaderboard.java" />
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\MainActivity.java" />
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\Piece.java" />
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\PieceScores.java" />
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\PieceType.java" />
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\PlayerType.java" />
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\Settings.java" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Chess_Mob\ChessMob_Android\jni\ChessMobAndroid.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Bishop.h" />
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Computer.h" />
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\GameMaster.h" />
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\GameState.h" />
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\King.h" />
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Knight.h" />
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\List.h" />
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Pawn.h" />
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Piece.h" />
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Queen.h" />
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Rook.h" />
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Structs.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

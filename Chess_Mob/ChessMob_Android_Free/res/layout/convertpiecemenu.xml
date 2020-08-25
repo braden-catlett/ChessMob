@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:id="@+id/ImageLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ConvertPieceTitle"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/LeftConvertPiece"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/leftselectarrow" />
+
+        <ImageView
+            android:id="@+id/PieceIcon"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:contentDescription="@string/yourpiece"
+            android:src="@drawable/bishop_white" />
+
+        <ImageView
+            android:id="@+id/RightConvertPiece"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/rightselectarrow" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ConvertPieceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:text="@string/convertpiecetitle"
+        android:textColor="#FFAA00"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/AcceptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImageLayout"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/roundedcorners"
+        android:text="@string/accept"
+        android:textColor="#FFAA00" />
+
+</RelativeLayout>

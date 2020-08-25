@@ -1,0 +1,11 @@
+Who is our target audience? Is it educated businessmen 30+? Is it college age students? High school?  Chess enthusiasts? Amateurs? This determines the look and feel of the app (graphics, background music/effects) and may influence which features are the highest priority.
+
+Do you want 3D graphics or 2D graphics? 3D often appeals more to a younger crowd, while 2D may appeal to an older age group for its simplicity/clarity.
+
+Is the ability to save/resume games important? Transfer games in progress to other devices? Save more than one game?
+
+What platforms do you want to deploy on? (iOS (apple phones/tables), Android, Windows 8)
+
+What is the main way you see this app being used? (To connect and play a fun game with friends, to kill some time while waiting in the airport/on a bus, ?)
+
+What is your "vision" for this app?

@@ -1,0 +1,32 @@
+﻿Build started 8/5/2013 10:27:58 PM.
+     1>Project "C:\Users\Brad\Desktop\Software_Development_Material\ChessMob_Debug\ChessMob_Debug\ChessMob_Debug.vcxproj" on node 2 (Rebuild target(s)).
+     1>Rebuild:
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\VisualGDB.exe" /rebuild "C:\Users\Brad\Desktop\Software_Development_Material\ChessMob_Debug\ChessMob_Debug\ChessMob_Debug.vcxproj" "/solution:C:\Users\Brad\Desktop\Software_Development_Material\ChessMob_Debug\ChessMob_Debug.sln" "/config:Debug" "/platform:Win32"
+         C:\Android_Case_Tools\android-ndk-r8e\ndk-build.cmd NDK_DEBUG=1 APP_PLATFORM=android-14 VGDB_VSCONFIG=Debug clean
+         Clean: ChessMobAndroid [armeabi]
+         Clean: stlport_shared [armeabi]
+         Clean: stlport_static [armeabi]
+         C:\Android_Case_Tools\apache-ant-1.9.2-bin\apache-ant-1.9.2\bin\ant.bat clean
+         Buildfile: C:\Users\Brad\Desktop\Software_Development_Material\Chess_Mob\ChessMob_Android\build.xml
+         
+         BUILD FAILED
+         C:\Users\Brad\Desktop\Software_Development_Material\Chess_Mob\ChessMob_Android\build.xml:90: Cannot find C:\Users\USER\tools\ant\build.xml imported from C:\Users\Brad\Desktop\Software_Development_Material\Chess_Mob\ChessMob_Android\build.xml
+         
+         Total time: 0 seconds
+         C:\Android_Case_Tools\android-ndk-r8e\ndk-build.cmd NDK_DEBUG=1 APP_PLATFORM=android-14 VGDB_VSCONFIG=Debug
+         Gdbserver      : [arm-linux-androideabi-4.6] libs/armeabi/gdbserver
+         Gdbsetup       : libs/armeabi/gdb.setup
+         Install        : libChessMobAndroid.so => libs/armeabi/libChessMobAndroid.so
+         C:\Android_Case_Tools\apache-ant-1.9.2-bin\apache-ant-1.9.2\bin\ant.bat debug
+         Buildfile: C:\Users\Brad\Desktop\Software_Development_Material\Chess_Mob\ChessMob_Android\build.xml
+         
+         BUILD FAILED
+         C:\Users\Brad\Desktop\Software_Development_Material\Chess_Mob\ChessMob_Android\build.xml:90: Cannot find C:\Users\USER\tools\ant\build.xml imported from C:\Users\Brad\Desktop\Software_Development_Material\Chess_Mob\ChessMob_Android\build.xml
+         
+         Total time: 0 seconds
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(43,5): error MSB3073: The command ""C:\Program Files (x86)\Sysprogs\VisualGDB\VisualGDB.exe" /rebuild "C:\Users\Brad\Desktop\Software_Development_Material\ChessMob_Debug\ChessMob_Debug\ChessMob_Debug.vcxproj" "/solution:C:\Users\Brad\Desktop\Software_Development_Material\ChessMob_Debug\ChessMob_Debug.sln" "/config:Debug" "/platform:Win32"" exited with code 1.
+     1>Done Building Project "C:\Users\Brad\Desktop\Software_Development_Material\ChessMob_Debug\ChessMob_Debug\ChessMob_Debug.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.84

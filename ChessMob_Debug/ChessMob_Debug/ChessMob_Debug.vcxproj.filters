@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{c725be7a-6cf1-4331-973d-aa20f36a55db}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{575d22f4-3600-49ff-83db-de9d250f6461}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{8879a124-147f-4508-ae41-0d9227f10067}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Java Source Files">
+      <UniqueIdentifier>{c5b24460-0e75-43ac-bec5-8657af536def}</UniqueIdentifier>
+      <Extensions>*.java</Extensions>
+    </Filter>
+    <Filter Include="Java Source Files\com">
+      <UniqueIdentifier>{58ff9cf0-ae4b-4a67-9062-19ed644672d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Source Files\com\chessmob">
+      <UniqueIdentifier>{5873420e-b320-4fdf-88f5-12a38b384438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Source Files\com\chessmob\chessmobandroid">
+      <UniqueIdentifier>{f00f6606-58d7-4ff6-8308-7db34e214792}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Chess_Mob\ChessMob_Android\AndroidManifest.xml">
+      <Filter>Source files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Chess_Mob\ChessMob_Android\jni\Android.mk" />
+    <None Include="..\..\Chess_Mob\ChessMob_Android\jni\Application.mk">
+      <Filter>Source files</Filter>
+    </None>
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\Coord.java">
+      <Filter>Java Source Files\com\chessmob\chessmobandroid</Filter>
+    </None>
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\DifficultyOptions.java">
+      <Filter>Java Source Files\com\chessmob\chessmobandroid</Filter>
+    </None>
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\Direction.java">
+      <Filter>Java Source Files\com\chessmob\chessmobandroid</Filter>
+    </None>
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\GameActivity.java">
+      <Filter>Java Source Files\com\chessmob\chessmobandroid</Filter>
+    </None>
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\GameNDKFunctions.java">
+      <Filter>Java Source Files\com\chessmob\chessmobandroid</Filter>
+    </None>
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\GameSettings.java">
+      <Filter>Java Source Files\com\chessmob\chessmobandroid</Filter>
+    </None>
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\Leaderboard.java">
+      <Filter>Java Source Files\com\chessmob\chessmobandroid</Filter>
+    </None>
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\MainActivity.java">
+      <Filter>Java Source Files\com\chessmob\chessmobandroid</Filter>
+    </None>
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\Piece.java">
+      <Filter>Java Source Files\com\chessmob\chessmobandroid</Filter>
+    </None>
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\PieceScores.java">
+      <Filter>Java Source Files\com\chessmob\chessmobandroid</Filter>
+    </None>
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\PieceType.java">
+      <Filter>Java Source Files\com\chessmob\chessmobandroid</Filter>
+    </None>
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\PlayerType.java">
+      <Filter>Java Source Files\com\chessmob\chessmobandroid</Filter>
+    </None>
+    <None Include="..\..\Chess_Mob\ChessMob_Android\src\com\chessmob\chessmobandroid\Settings.java">
+      <Filter>Java Source Files\com\chessmob\chessmobandroid</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Chess_Mob\ChessMob_Android\jni\ChessMobAndroid.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Bishop.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Computer.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\GameMaster.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\GameState.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\King.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Knight.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\List.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Pawn.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Piece.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Queen.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Rook.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Chess_Mob\ChessMob_Android\jni\Structs.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

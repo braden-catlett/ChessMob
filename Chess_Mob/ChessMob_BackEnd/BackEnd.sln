@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BackEnd", "BackEnd.vcxproj", "{46320BFB-EED3-405C-AC9E-927E0A25C24E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BackEndTest", "BackEndTest\BackEndTest.vcxproj", "{554D4E9D-951C-4619-8F0B-278DEF5E3024}"
+	ProjectSection(ProjectDependencies) = postProject
+		{46320BFB-EED3-405C-AC9E-927E0A25C24E} = {46320BFB-EED3-405C-AC9E-927E0A25C24E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46320BFB-EED3-405C-AC9E-927E0A25C24E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{46320BFB-EED3-405C-AC9E-927E0A25C24E}.Debug|Win32.Build.0 = Debug|Win32
+		{46320BFB-EED3-405C-AC9E-927E0A25C24E}.Release|Win32.ActiveCfg = Release|Win32
+		{46320BFB-EED3-405C-AC9E-927E0A25C24E}.Release|Win32.Build.0 = Release|Win32
+		{554D4E9D-951C-4619-8F0B-278DEF5E3024}.Debug|Win32.ActiveCfg = Debug|Win32
+		{554D4E9D-951C-4619-8F0B-278DEF5E3024}.Debug|Win32.Build.0 = Debug|Win32
+		{554D4E9D-951C-4619-8F0B-278DEF5E3024}.Release|Win32.ActiveCfg = Release|Win32
+		{554D4E9D-951C-4619-8F0B-278DEF5E3024}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

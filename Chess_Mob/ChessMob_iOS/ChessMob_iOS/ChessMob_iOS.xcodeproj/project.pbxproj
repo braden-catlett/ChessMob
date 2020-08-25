@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ChessMob_iOSAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ChessMob_iOSAppDelegate.mm */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.mm */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		5DEC79F4173CCEF0009E92EC /* ChessMob_iOSAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3623240D0F684500981E51 /* ChessMob_iOSAppDelegate.h */; };
+		5DEC79F5173CCEF9009E92EC /* SettingsMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = AF37B55E173321F800377D2C /* SettingsMenuController.h */; };
+		5DEC79F6173CCF00009E92EC /* GameScreenController.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF60D9B1739B2C700B73FA5 /* GameScreenController.h */; };
+		84428707182B4B4D00AAF53E /* iconsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 84428706182B4B4D00AAF53E /* iconsmall.png */; };
+		84428709182B4BCB00AAF53E /* iconretina.png in Resources */ = {isa = PBXBuildFile; fileRef = 84428708182B4BCB00AAF53E /* iconretina.png */; };
+		847C6D491825BE680069C5FF /* GameState.h in Headers */ = {isa = PBXBuildFile; fileRef = 847C6D481825BE680069C5FF /* GameState.h */; };
+		847C6D4C1825CADF0069C5FF /* UnifrakturMaguntia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 847C6D4A1825C9A40069C5FF /* UnifrakturMaguntia.ttf */; };
+		AF31B08C17443BCC00D23846 /* List.h in Headers */ = {isa = PBXBuildFile; fileRef = AF31B08B17443BCC00D23846 /* List.h */; };
+		AF37B560173321F800377D2C /* SettingsMenuController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF37B55F173321F800377D2C /* SettingsMenuController.mm */; };
+		AF37B5621733221600377D2C /* SettingsMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF37B5611733221600377D2C /* SettingsMenu.xib */; };
+		AF8A6B95173723800065ACD5 /* GameScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF8A6B94173723800065ACD5 /* GameScreen.xib */; };
+		AFE6E24E17457F5600451A2E /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E22A17457F5600451A2E /* background.png */; };
+		AFE6E24F17457F5600451A2E /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E22B17457F5600451A2E /* background2.png */; };
+		AFE6E25017457F5600451A2E /* bishop_black.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E22C17457F5600451A2E /* bishop_black.png */; };
+		AFE6E25117457F5600451A2E /* bishop_black_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E22D17457F5600451A2E /* bishop_black_highlighted.png */; };
+		AFE6E25217457F5600451A2E /* bishop_white.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E22E17457F5600451A2E /* bishop_white.png */; };
+		AFE6E25317457F5600451A2E /* bishop_white_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E22F17457F5600451A2E /* bishop_white_highlighted.png */; };
+		AFE6E25417457F5600451A2E /* chessboard.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23017457F5600451A2E /* chessboard.png */; };
+		AFE6E25517457F5600451A2E /* chessboard2.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23117457F5600451A2E /* chessboard2.png */; };
+		AFE6E25617457F5600451A2E /* chessmoblogo.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23217457F5600451A2E /* chessmoblogo.png */; };
+		AFE6E25717457F5600451A2E /* highlightedroundedcorners.xml in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23317457F5600451A2E /* highlightedroundedcorners.xml */; };
+		AFE6E25817457F5600451A2E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23417457F5600451A2E /* icon.png */; };
+		AFE6E25917457F5600451A2E /* king_black.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23517457F5600451A2E /* king_black.png */; };
+		AFE6E25A17457F5600451A2E /* king_black_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23617457F5600451A2E /* king_black_highlighted.png */; };
+		AFE6E25B17457F5600451A2E /* king_white.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23717457F5600451A2E /* king_white.png */; };
+		AFE6E25C17457F5600451A2E /* king_white_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23817457F5600451A2E /* king_white_highlighted.png */; };
+		AFE6E25D17457F5600451A2E /* knight_black.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23917457F5600451A2E /* knight_black.png */; };
+		AFE6E25E17457F5600451A2E /* knight_black_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23A17457F5600451A2E /* knight_black_highlighted.png */; };
+		AFE6E25F17457F5600451A2E /* knight_white.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23B17457F5600451A2E /* knight_white.png */; };
+		AFE6E26017457F5600451A2E /* knight_white_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23C17457F5600451A2E /* knight_white_highlighted.png */; };
+		AFE6E26117457F5600451A2E /* leftselectarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23D17457F5600451A2E /* leftselectarrow.png */; };
+		AFE6E26217457F5600451A2E /* pawn_black.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23E17457F5600451A2E /* pawn_black.png */; };
+		AFE6E26317457F5600451A2E /* pawn_black_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E23F17457F5600451A2E /* pawn_black_highlighted.png */; };
+		AFE6E26417457F5600451A2E /* pawn_white.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E24017457F5600451A2E /* pawn_white.png */; };
+		AFE6E26517457F5600451A2E /* pawn_white_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E24117457F5600451A2E /* pawn_white_highlighted.png */; };
+		AFE6E26617457F5600451A2E /* queen_black.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E24217457F5600451A2E /* queen_black.png */; };
+		AFE6E26717457F5600451A2E /* queen_black_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E24317457F5600451A2E /* queen_black_highlighted.png */; };
+		AFE6E26817457F5600451A2E /* queen_white.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E24417457F5600451A2E /* queen_white.png */; };
+		AFE6E26917457F5600451A2E /* queen_white_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E24517457F5600451A2E /* queen_white_highlighted.png */; };
+		AFE6E26A17457F5600451A2E /* rightselectarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E24617457F5600451A2E /* rightselectarrow.png */; };
+		AFE6E26B17457F5600451A2E /* rook_black.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E24717457F5600451A2E /* rook_black.png */; };
+		AFE6E26C17457F5600451A2E /* rook_black_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E24817457F5600451A2E /* rook_black_highlighted.png */; };
+		AFE6E26D17457F5600451A2E /* rook_white.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E24917457F5600451A2E /* rook_white.png */; };
+		AFE6E26E17457F5600451A2E /* rook_white_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E24A17457F5600451A2E /* rook_white_highlighted.png */; };
+		AFE6E26F17457F5600451A2E /* roundedcorners.xml in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E24B17457F5600451A2E /* roundedcorners.xml */; };
+		AFE6E27017457F5600451A2E /* SelectCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E24C17457F5600451A2E /* SelectCircle.png */; };
+		AFE6E27117457F5600451A2E /* startbuttontexture.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE6E24D17457F5600451A2E /* startbuttontexture.png */; };
+		AFF60D9D1739B2C700B73FA5 /* GameScreenController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AFF60D9C1739B2C700B73FA5 /* GameScreenController.mm */; };
+		FF44703617B5C3BF00534D43 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF44703517B5C3BF00534D43 /* Default-568h@2x.png */; };
+		FFBD299B17BDB92500362C29 /* SaveGameObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FFBD299917BDB92500362C29 /* SaveGameObject.h */; };
+		FFBD299C17BDB92500362C29 /* SaveGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBD299A17BDB92500362C29 /* SaveGameObject.m */; };
+		FFBD29A017C6E2D700362C29 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFBD299F17C6E2D700362C29 /* MainWindow.xib */; };
+		FFBD29A317C80E1200362C29 /* Toast+UIView.h in Headers */ = {isa = PBXBuildFile; fileRef = FFBD29A117C80E1200362C29 /* Toast+UIView.h */; };
+		FFBD29A417C80E1200362C29 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBD29A217C80E1200362C29 /* Toast+UIView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ChessMob_iOSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessMob_iOSAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ChessMob_iOSAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ChessMob_iOSAppDelegate.mm; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ChessMob_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessMob_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* ChessMob_iOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessMob_iOS_Prefix.pch; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84428706182B4B4D00AAF53E /* iconsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconsmall.png; sourceTree = "<group>"; };
+		84428708182B4BCB00AAF53E /* iconretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconretina.png; sourceTree = "<group>"; };
+		8442870A182C808800AAF53E /* iconretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconretina.png; sourceTree = "<group>"; };
+		8442870B182C808800AAF53E /* iconsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconsmall.png; sourceTree = "<group>"; };
+		847C6D481825BE680069C5FF /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameState.h; path = ../../../ChessMob_BackEnd/GameState.h; sourceTree = "<group>"; };
+		847C6D4A1825C9A40069C5FF /* UnifrakturMaguntia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = UnifrakturMaguntia.ttf; path = ../../ChessMob_Android/assets/fonts/UnifrakturMaguntia.ttf; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ChessMob_iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ChessMob_iOS-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		AF31B08B17443BCC00D23846 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = List.h; path = ../../ChessMob_BackEnd/List.h; sourceTree = SOURCE_ROOT; };
+		AF37B55E173321F800377D2C /* SettingsMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsMenuController.h; sourceTree = "<group>"; };
+		AF37B55F173321F800377D2C /* SettingsMenuController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SettingsMenuController.mm; sourceTree = "<group>"; };
+		AF37B5611733221600377D2C /* SettingsMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsMenu.xib; sourceTree = "<group>"; };
+		AF67CEE6173C741500EE7246 /* Bishop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Bishop.h; path = ../../ChessMob_BackEnd/Bishop.h; sourceTree = SOURCE_ROOT; };
+		AF67CEE7173C741500EE7246 /* Computer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Computer.h; path = ../../ChessMob_BackEnd/Computer.h; sourceTree = SOURCE_ROOT; };
+		AF67CEE8173C741500EE7246 /* GameMaster.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GameMaster.h; path = ../../ChessMob_BackEnd/GameMaster.h; sourceTree = SOURCE_ROOT; };
+		AF67CEE9173C741500EE7246 /* King.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = King.h; path = ../../ChessMob_BackEnd/King.h; sourceTree = SOURCE_ROOT; };
+		AF67CEEA173C741500EE7246 /* Knight.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Knight.h; path = ../../ChessMob_BackEnd/Knight.h; sourceTree = SOURCE_ROOT; };
+		AF67CEEB173C741500EE7246 /* Pawn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Pawn.h; path = ../../ChessMob_BackEnd/Pawn.h; sourceTree = SOURCE_ROOT; };
+		AF67CEEC173C741500EE7246 /* Piece.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Piece.h; path = ../../ChessMob_BackEnd/Piece.h; sourceTree = SOURCE_ROOT; };
+		AF67CEED173C741500EE7246 /* Queen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Queen.h; path = ../../ChessMob_BackEnd/Queen.h; sourceTree = SOURCE_ROOT; };
+		AF67CEEE173C741500EE7246 /* Rook.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Rook.h; path = ../../ChessMob_BackEnd/Rook.h; sourceTree = SOURCE_ROOT; };
+		AF67CEEF173C741500EE7246 /* Structs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Structs.h; path = ../../ChessMob_BackEnd/Structs.h; sourceTree = SOURCE_ROOT; };
+		AF8A6B94173723800065ACD5 /* GameScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameScreen.xib; sourceTree = "<group>"; };
+		AFE6E22A17457F5600451A2E /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		AFE6E22B17457F5600451A2E /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		AFE6E22C17457F5600451A2E /* bishop_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bishop_black.png; sourceTree = "<group>"; };
+		AFE6E22D17457F5600451A2E /* bishop_black_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bishop_black_highlighted.png; sourceTree = "<group>"; };
+		AFE6E22E17457F5600451A2E /* bishop_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bishop_white.png; sourceTree = "<group>"; };
+		AFE6E22F17457F5600451A2E /* bishop_white_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bishop_white_highlighted.png; sourceTree = "<group>"; };
+		AFE6E23017457F5600451A2E /* chessboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chessboard.png; sourceTree = "<group>"; };
+		AFE6E23117457F5600451A2E /* chessboard2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chessboard2.png; sourceTree = "<group>"; };
+		AFE6E23217457F5600451A2E /* chessmoblogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chessmoblogo.png; sourceTree = "<group>"; };
+		AFE6E23317457F5600451A2E /* highlightedroundedcorners.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = highlightedroundedcorners.xml; sourceTree = "<group>"; };
+		AFE6E23417457F5600451A2E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		AFE6E23517457F5600451A2E /* king_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_black.png; sourceTree = "<group>"; };
+		AFE6E23617457F5600451A2E /* king_black_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_black_highlighted.png; sourceTree = "<group>"; };
+		AFE6E23717457F5600451A2E /* king_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_white.png; sourceTree = "<group>"; };
+		AFE6E23817457F5600451A2E /* king_white_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_white_highlighted.png; sourceTree = "<group>"; };
+		AFE6E23917457F5600451A2E /* knight_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_black.png; sourceTree = "<group>"; };
+		AFE6E23A17457F5600451A2E /* knight_black_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_black_highlighted.png; sourceTree = "<group>"; };
+		AFE6E23B17457F5600451A2E /* knight_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_white.png; sourceTree = "<group>"; };
+		AFE6E23C17457F5600451A2E /* knight_white_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_white_highlighted.png; sourceTree = "<group>"; };
+		AFE6E23D17457F5600451A2E /* leftselectarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftselectarrow.png; sourceTree = "<group>"; };
+		AFE6E23E17457F5600451A2E /* pawn_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pawn_black.png; sourceTree = "<group>"; };
+		AFE6E23F17457F5600451A2E /* pawn_black_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pawn_black_highlighted.png; sourceTree = "<group>"; };
+		AFE6E24017457F5600451A2E /* pawn_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pawn_white.png; sourceTree = "<group>"; };
+		AFE6E24117457F5600451A2E /* pawn_white_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pawn_white_highlighted.png; sourceTree = "<group>"; };
+		AFE6E24217457F5600451A2E /* queen_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_black.png; sourceTree = "<group>"; };
+		AFE6E24317457F5600451A2E /* queen_black_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_black_highlighted.png; sourceTree = "<group>"; };
+		AFE6E24417457F5600451A2E /* queen_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_white.png; sourceTree = "<group>"; };
+		AFE6E24517457F5600451A2E /* queen_white_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_white_highlighted.png; sourceTree = "<group>"; };
+		AFE6E24617457F5600451A2E /* rightselectarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightselectarrow.png; sourceTree = "<group>"; };
+		AFE6E24717457F5600451A2E /* rook_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rook_black.png; sourceTree = "<group>"; };
+		AFE6E24817457F5600451A2E /* rook_black_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rook_black_highlighted.png; sourceTree = "<group>"; };
+		AFE6E24917457F5600451A2E /* rook_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rook_white.png; sourceTree = "<group>"; };
+		AFE6E24A17457F5600451A2E /* rook_white_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rook_white_highlighted.png; sourceTree = "<group>"; };
+		AFE6E24B17457F5600451A2E /* roundedcorners.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = roundedcorners.xml; sourceTree = "<group>"; };
+		AFE6E24C17457F5600451A2E /* SelectCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SelectCircle.png; sourceTree = "<group>"; };
+		AFE6E24D17457F5600451A2E /* startbuttontexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startbuttontexture.png; sourceTree = "<group>"; };
+		AFF60D9B1739B2C700B73FA5 /* GameScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScreenController.h; sourceTree = "<group>"; };
+		AFF60D9C1739B2C700B73FA5 /* GameScreenController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameScreenController.mm; sourceTree = "<group>"; };
+		FF44703517B5C3BF00534D43 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FFBD299917BDB92500362C29 /* SaveGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveGameObject.h; sourceTree = "<group>"; };
+		FFBD299A17BDB92500362C29 /* SaveGameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveGameObject.m; sourceTree = "<group>"; };
+		FFBD299F17C6E2D700362C29 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		FFBD29A117C80E1200362C29 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
+		FFBD29A217C80E1200362C29 /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF67CEE5173C711F00EE7246 /* Backend */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.mm */,
+				1D3623240D0F684500981E51 /* ChessMob_iOSAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ChessMob_iOSAppDelegate.mm */,
+				AF37B55E173321F800377D2C /* SettingsMenuController.h */,
+				AF37B55F173321F800377D2C /* SettingsMenuController.mm */,
+				AFF60D9B1739B2C700B73FA5 /* GameScreenController.h */,
+				AFF60D9C1739B2C700B73FA5 /* GameScreenController.mm */,
+				FFBD299917BDB92500362C29 /* SaveGameObject.h */,
+				FFBD299A17BDB92500362C29 /* SaveGameObject.m */,
+				FFBD29A117C80E1200362C29 /* Toast+UIView.h */,
+				FFBD29A217C80E1200362C29 /* Toast+UIView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ChessMob_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				8442870A182C808800AAF53E /* iconretina.png */,
+				8442870B182C808800AAF53E /* iconsmall.png */,
+				84428708182B4BCB00AAF53E /* iconretina.png */,
+				84428706182B4B4D00AAF53E /* iconsmall.png */,
+				847C6D4A1825C9A40069C5FF /* UnifrakturMaguntia.ttf */,
+				FF44703517B5C3BF00534D43 /* Default-568h@2x.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* ChessMob_iOS_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FFBD299F17C6E2D700362C29 /* MainWindow.xib */,
+				AFE6E22917457F5600451A2E /* drawable-hdpi */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				8D1107310486CEB800E47090 /* ChessMob_iOS-Info.plist */,
+				AF37B5611733221600377D2C /* SettingsMenu.xib */,
+				AF8A6B94173723800065ACD5 /* GameScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF67CEE5173C711F00EE7246 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				AF31B08B17443BCC00D23846 /* List.h */,
+				847C6D481825BE680069C5FF /* GameState.h */,
+				AF67CEE6173C741500EE7246 /* Bishop.h */,
+				AF67CEE7173C741500EE7246 /* Computer.h */,
+				AF67CEE8173C741500EE7246 /* GameMaster.h */,
+				AF67CEE9173C741500EE7246 /* King.h */,
+				AF67CEEA173C741500EE7246 /* Knight.h */,
+				AF67CEEB173C741500EE7246 /* Pawn.h */,
+				AF67CEEC173C741500EE7246 /* Piece.h */,
+				AF67CEED173C741500EE7246 /* Queen.h */,
+				AF67CEEE173C741500EE7246 /* Rook.h */,
+				AF67CEEF173C741500EE7246 /* Structs.h */,
+			);
+			name = Backend;
+			sourceTree = "<group>";
+		};
+		AFE6E22917457F5600451A2E /* drawable-hdpi */ = {
+			isa = PBXGroup;
+			children = (
+				AFE6E22A17457F5600451A2E /* background.png */,
+				AFE6E22B17457F5600451A2E /* background2.png */,
+				AFE6E22C17457F5600451A2E /* bishop_black.png */,
+				AFE6E22D17457F5600451A2E /* bishop_black_highlighted.png */,
+				AFE6E22E17457F5600451A2E /* bishop_white.png */,
+				AFE6E22F17457F5600451A2E /* bishop_white_highlighted.png */,
+				AFE6E23017457F5600451A2E /* chessboard.png */,
+				AFE6E23117457F5600451A2E /* chessboard2.png */,
+				AFE6E23217457F5600451A2E /* chessmoblogo.png */,
+				AFE6E23317457F5600451A2E /* highlightedroundedcorners.xml */,
+				AFE6E23417457F5600451A2E /* icon.png */,
+				AFE6E23517457F5600451A2E /* king_black.png */,
+				AFE6E23617457F5600451A2E /* king_black_highlighted.png */,
+				AFE6E23717457F5600451A2E /* king_white.png */,
+				AFE6E23817457F5600451A2E /* king_white_highlighted.png */,
+				AFE6E23917457F5600451A2E /* knight_black.png */,
+				AFE6E23A17457F5600451A2E /* knight_black_highlighted.png */,
+				AFE6E23B17457F5600451A2E /* knight_white.png */,
+				AFE6E23C17457F5600451A2E /* knight_white_highlighted.png */,
+				AFE6E23D17457F5600451A2E /* leftselectarrow.png */,
+				AFE6E23E17457F5600451A2E /* pawn_black.png */,
+				AFE6E23F17457F5600451A2E /* pawn_black_highlighted.png */,
+				AFE6E24017457F5600451A2E /* pawn_white.png */,
+				AFE6E24117457F5600451A2E /* pawn_white_highlighted.png */,
+				AFE6E24217457F5600451A2E /* queen_black.png */,
+				AFE6E24317457F5600451A2E /* queen_black_highlighted.png */,
+				AFE6E24417457F5600451A2E /* queen_white.png */,
+				AFE6E24517457F5600451A2E /* queen_white_highlighted.png */,
+				AFE6E24617457F5600451A2E /* rightselectarrow.png */,
+				AFE6E24717457F5600451A2E /* rook_black.png */,
+				AFE6E24817457F5600451A2E /* rook_black_highlighted.png */,
+				AFE6E24917457F5600451A2E /* rook_white.png */,
+				AFE6E24A17457F5600451A2E /* rook_white_highlighted.png */,
+				AFE6E24B17457F5600451A2E /* roundedcorners.xml */,
+				AFE6E24C17457F5600451A2E /* SelectCircle.png */,
+				AFE6E24D17457F5600451A2E /* startbuttontexture.png */,
+			);
+			name = "drawable-hdpi";
+			path = "../../ChessMob_Android/res/drawable-hdpi";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5DEC79F1173CAD4E009E92EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEC79F4173CCEF0009E92EC /* ChessMob_iOSAppDelegate.h in Headers */,
+				5DEC79F5173CCEF9009E92EC /* SettingsMenuController.h in Headers */,
+				5DEC79F6173CCF00009E92EC /* GameScreenController.h in Headers */,
+				AF31B08C17443BCC00D23846 /* List.h in Headers */,
+				FFBD299B17BDB92500362C29 /* SaveGameObject.h in Headers */,
+				FFBD29A317C80E1200362C29 /* Toast+UIView.h in Headers */,
+				847C6D491825BE680069C5FF /* GameState.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ChessMob_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ChessMob_iOS" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				5DEC79F1173CAD4E009E92EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChessMob_iOS;
+			productName = ChessMob_iOS;
+			productReference = 1D6058910D05DD3D006BFB54 /* ChessMob_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ChessMob_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ChessMob_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84428709182B4BCB00AAF53E /* iconretina.png in Resources */,
+				84428707182B4B4D00AAF53E /* iconsmall.png in Resources */,
+				847C6D4C1825CADF0069C5FF /* UnifrakturMaguntia.ttf in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				AF37B5621733221600377D2C /* SettingsMenu.xib in Resources */,
+				AF8A6B95173723800065ACD5 /* GameScreen.xib in Resources */,
+				AFE6E24E17457F5600451A2E /* background.png in Resources */,
+				AFE6E24F17457F5600451A2E /* background2.png in Resources */,
+				AFE6E25017457F5600451A2E /* bishop_black.png in Resources */,
+				AFE6E25117457F5600451A2E /* bishop_black_highlighted.png in Resources */,
+				AFE6E25217457F5600451A2E /* bishop_white.png in Resources */,
+				AFE6E25317457F5600451A2E /* bishop_white_highlighted.png in Resources */,
+				AFE6E25417457F5600451A2E /* chessboard.png in Resources */,
+				AFE6E25517457F5600451A2E /* chessboard2.png in Resources */,
+				AFE6E25617457F5600451A2E /* chessmoblogo.png in Resources */,
+				AFE6E25717457F5600451A2E /* highlightedroundedcorners.xml in Resources */,
+				AFE6E25817457F5600451A2E /* icon.png in Resources */,
+				AFE6E25917457F5600451A2E /* king_black.png in Resources */,
+				AFE6E25A17457F5600451A2E /* king_black_highlighted.png in Resources */,
+				AFE6E25B17457F5600451A2E /* king_white.png in Resources */,
+				AFE6E25C17457F5600451A2E /* king_white_highlighted.png in Resources */,
+				AFE6E25D17457F5600451A2E /* knight_black.png in Resources */,
+				AFE6E25E17457F5600451A2E /* knight_black_highlighted.png in Resources */,
+				AFE6E25F17457F5600451A2E /* knight_white.png in Resources */,
+				AFE6E26017457F5600451A2E /* knight_white_highlighted.png in Resources */,
+				AFE6E26117457F5600451A2E /* leftselectarrow.png in Resources */,
+				AFE6E26217457F5600451A2E /* pawn_black.png in Resources */,
+				AFE6E26317457F5600451A2E /* pawn_black_highlighted.png in Resources */,
+				AFE6E26417457F5600451A2E /* pawn_white.png in Resources */,
+				AFE6E26517457F5600451A2E /* pawn_white_highlighted.png in Resources */,
+				AFE6E26617457F5600451A2E /* queen_black.png in Resources */,
+				AFE6E26717457F5600451A2E /* queen_black_highlighted.png in Resources */,
+				AFE6E26817457F5600451A2E /* queen_white.png in Resources */,
+				AFE6E26917457F5600451A2E /* queen_white_highlighted.png in Resources */,
+				AFE6E26A17457F5600451A2E /* rightselectarrow.png in Resources */,
+				AFE6E26B17457F5600451A2E /* rook_black.png in Resources */,
+				AFE6E26C17457F5600451A2E /* rook_black_highlighted.png in Resources */,
+				AFE6E26D17457F5600451A2E /* rook_white.png in Resources */,
+				AFE6E26E17457F5600451A2E /* rook_white_highlighted.png in Resources */,
+				AFE6E26F17457F5600451A2E /* roundedcorners.xml in Resources */,
+				AFE6E27017457F5600451A2E /* SelectCircle.png in Resources */,
+				AFE6E27117457F5600451A2E /* startbuttontexture.png in Resources */,
+				FF44703617B5C3BF00534D43 /* Default-568h@2x.png in Resources */,
+				FFBD29A017C6E2D700362C29 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ChessMob_iOSAppDelegate.mm in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.mm in Sources */,
+				AF37B560173321F800377D2C /* SettingsMenuController.mm in Sources */,
+				AFF60D9D1739B2C700B73FA5 /* GameScreenController.mm in Sources */,
+				FFBD299C17BDB92500362C29 /* SaveGameObject.m in Sources */,
+				FFBD29A417C80E1200362C29 /* Toast+UIView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Brian Hubbell (228S22BP48)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ChessMob_iOS_Prefix.pch;
+				INFOPLIST_FILE = "ChessMob_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = ChessMob_iOS;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Brian Hubbell (228S22BP48)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ChessMob_iOS_Prefix.pch;
+				INFOPLIST_FILE = "ChessMob_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = ChessMob_iOS;
+				PROVISIONING_PROFILE = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ChessMob_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ChessMob_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
